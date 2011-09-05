@@ -4,13 +4,45 @@
 
   <groupId>org.testdriven.archetypes.jboss</groupId>
   <artifactId>j2ee-modular-archetype</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>maven-archetype</packaging>
-
   <name>Modular JBoss EAR Archetype</name>
+
   <scm>
   	<connection>scm:git:http://dev.aplaline.com/git/jboss-modular-ear-archetype.git</connection>
   </scm>
+
+  <developers>
+    <developer>
+      <id>jpalka</id>
+      <name>Jarek Pa³ka</name>
+      <email>jpalka@gmail.com</email>
+      <url>http://primitive.jogger.pl</url>
+      <organization>testdriven.org</organization>
+      <organizationUrl>http://testdriven.org</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+2</timezone>
+    </developer>
+    <developer>
+      <id>padcom</id>
+      <name>Matthias Hryniszak</name>
+      <email>padcom@gmail.com</email>
+      <url>http://padcom13.blogspot.com</url>
+      <organization>testdriven.org</organization>
+      <organizationUrl>http://testdriven.org</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>+2</timezone>
+      <properties>
+        <picUrl>http://en.gravatar.com/userimage/19573841/5adfa1da4f670fd5d349b790d13af250.png</picUrl>
+      </properties>
+    </developer>
+  </developers>
 
   <build>
     <extensions>
