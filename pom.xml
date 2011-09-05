@@ -4,7 +4,7 @@
 
   <groupId>org.testdriven.archetypes.jboss</groupId>
   <artifactId>j2ee-modular-archetype</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
   <name>Modular JBoss EAR Archetype</name>
 
