@@ -8,6 +8,9 @@
   <packaging>maven-archetype</packaging>
 
   <name>Modular JBoss EAR Archetype</name>
+  <scm>
+  	<connection>scm:git:http://dev.aplaline.com/git/jboss-modular-ear-archetype.git</connection>
+  </scm>
 
   <build>
     <extensions>
