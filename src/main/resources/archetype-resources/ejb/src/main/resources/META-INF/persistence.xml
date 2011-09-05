@@ -1,0 +1,22 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="example-pu">
+		<jta-data-source>java:DefaultDS</jta-data-source>
+		<class>${package}.model.Person</class>
+		<properties>
+			<!-- Standard Hibernate configuration options -->
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.cache.use_second_level_cache" value="false" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
+			<!-- Expose entity manager in JNDI -->
+			<!-- <property name="jboss.entity.manager.jndi.name" value="EntityManager" /> -->
+		</properties>
+	</persistence-unit>
+</persistence>

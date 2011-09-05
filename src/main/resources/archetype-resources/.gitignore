@@ -1,0 +1,8 @@
+target
+.settings
+.project
+.classpath
+.springBeans
+application.xml
+jboss-app.xml
+MANIFEST.MF
