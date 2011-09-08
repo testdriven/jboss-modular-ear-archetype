@@ -2,6 +2,8 @@ package ${package}.service;
 
 import org.jboss.system.ServiceMBeanSupport;
 
+import ${package}.common.Printer;
+
 public class HelloWorldService extends ServiceMBeanSupport implements HelloWorldServiceMBean {
 	// Our message attribute
 	private String message = "Sorry no message today";
@@ -17,18 +19,13 @@ public class HelloWorldService extends ServiceMBeanSupport implements HelloWorld
 		this.message = message;
 	}
 
-	// The printMessage operation
-	public void printMessage() {
-		System.out.println(message);
-	}
-
 	// The lifecycle
 	protected void startService() throws Exception {
-		System.out.println("Starting with message=" + message);
+		Printer.println("Starting with message=" + message);
 	}
 
 	protected void stopService() throws Exception {
-		System.out.println("Stopping with message=" + message);
+		Printer.println("Stopping with message=" + message);
 	}
 }
 	
