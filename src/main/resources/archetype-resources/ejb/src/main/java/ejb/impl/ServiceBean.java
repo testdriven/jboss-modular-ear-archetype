@@ -7,6 +7,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import ${package}.common.Printer;
 import ${package}.ejb.Service;
 //import ${package}.model.Person;
 
@@ -17,6 +18,7 @@ public class ServiceBean implements Service {
 
 	@Override
 	public String action() {
+		Printer.println("Hello, world! from EJB");
 //		em.persist(Person.create("John", "Doe"));
 		return "Hello, world!";
 	}
