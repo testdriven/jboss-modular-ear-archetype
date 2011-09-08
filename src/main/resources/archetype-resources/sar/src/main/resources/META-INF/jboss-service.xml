@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<server>
+  <mbean code="${package}.service.HelloWorldService" name="${groupId}.${artifactId}:service=HelloWorld">
+    <attribute name="Message">Hello World</attribute>
+  </mbean>
+</server>

@@ -25,6 +25,10 @@
 					<version>5</version>
 					<defaultLibBundleDir>lib</defaultLibBundleDir>
 					<modules>
+						<sarModule>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>sar</artifactId>
+						</sarModule>
 						<ejbModule>
 							<groupId>${project.groupId}</groupId>
 							<artifactId>ejb</artifactId>
@@ -44,6 +48,13 @@
 	</build>
 
 	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>sar</artifactId>
+			<version>${project.version}</version>
+			<type>sar</type>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>ejb</artifactId>

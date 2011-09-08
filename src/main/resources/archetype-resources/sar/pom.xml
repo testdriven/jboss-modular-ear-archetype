@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>${groupId}.${rootArtifactId}</groupId>
+		<artifactId>parent</artifactId>
+		<version>${version}</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<artifactId>sar</artifactId>
+	<packaging>jboss-sar</packaging>
+
+	<name>${rootArtifactId} :: Services</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-system</artifactId>
+			<version>${jboss.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-jmx</artifactId>
+			<version>${jboss.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ejb-plugin</artifactId>
+				<version>2.1</version>
+				<configuration>
+					<ejbVersion>3.0</ejbVersion>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
