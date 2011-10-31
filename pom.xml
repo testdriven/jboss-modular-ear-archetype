@@ -9,7 +9,7 @@
   <name>Modular JBoss EAR Archetype</name>
 
   <scm>
-  	<connection>scm:git:http://dev.aplaline.com/git/jboss-modular-ear-archetype.git</connection>
+  	<connection>scm:git:http://github.com/padcom/jboss-modular-ear-archetype</connection>
   </scm>
 
   <properties>
