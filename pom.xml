@@ -23,7 +23,7 @@
 		</snapshotRepository>
 		<site>
 			<id>testdriven.org</id>
-			<url>scp://testdriven.org:60022/var/www/jboss-modular-ear-archetype/</url>
+			<url>scp://testdriven.org:9922/var/www/jboss-modular-ear-archetype/</url>
 		</site>
 	</distributionManagement>
 
