@@ -10,7 +10,7 @@
 
 	<groupId>org.testdriven.archetypes.jboss</groupId>
 	<artifactId>j2ee-modular-archetype</artifactId>
-	<version>1.0.9</version>
+	<version>1.0.10-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 	<name>Modular JBoss EAR Archetype</name>
 	<description>Archetype that combines a JAR, SAR, WAR and EAR artifacts into one working solution.</description>
