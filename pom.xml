@@ -2,6 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>org.testdriven</groupId>
+		<artifactId>testdriven</artifactId>
+		<version>1</version>
+	</parent>
+
 	<groupId>org.testdriven.archetypes.jboss</groupId>
 	<artifactId>j2ee-modular-archetype</artifactId>
 	<version>1.0.9-SNAPSHOT</version>
@@ -18,14 +24,6 @@
 	</scm>
 
 	<distributionManagement>
-		<repository>
-			<id>testdriven-releases</id>
-			<url>http://nexus.testdriven.org/content/repositories/releases/</url>
-		</repository>
-		<snapshotRepository>	
-			<id>testdriven-snapshots</id>
-			<url>http://nexus.testdriven.org/content/repositories/snapshots/</url>
-		</snapshotRepository>
 		<site>
 			<id>testdriven.org</id>
 			<url>scp://testdriven.org:9922/var/www/jboss-modular-ear-archetype/</url>
@@ -88,10 +86,6 @@
 		</developer>
 	</developers>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
 	<build>
 		<extensions>
 			<extension>
@@ -110,4 +104,11 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<repositories>
+		<repository>
+			<id>testdriven-releases</id>
+			<url>http://nexus.testdriven.org/content/repositories/releases/</url>
+		</repository>
+	</repositories>
 </project>
