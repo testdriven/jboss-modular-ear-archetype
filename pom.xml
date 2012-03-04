@@ -19,7 +19,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/testdriven/jboss-modular-ear-archetype</connection>
-		<developerConnection>scm:git:https://github.com/testdriven/jboss-modular-ear-archetype</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/testdriven/jboss-modular-ear-archetype</developerConnection>
 		<url>http://github.com/testdriven/jboss-modular-ear-archetype</url>
 	</scm>
 
