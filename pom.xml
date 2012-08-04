@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.testdriven</groupId>
 		<artifactId>testdriven</artifactId>
-		<version>1</version>
+		<version>2</version>
 	</parent>
 
 	<groupId>org.testdriven.archetypes.jboss</groupId>
@@ -15,7 +15,7 @@
 	<name>Modular JBoss EAR Archetype</name>
 	<description>Archetype that combines a JAR, SAR, WAR and EAR artifacts into one working solution.</description>
 
-	<url>http://www.testdriven.org/jboss-modular-ear-archetype</url>
+	<url>http://testdriven.org/jboss-modular-ear-archetype</url>
 
 	<scm>
 		<connection>scm:git:git://github.com/testdriven/jboss-modular-ear-archetype</connection>
@@ -108,7 +108,7 @@
 	<repositories>
 		<repository>
 			<id>testdriven-releases</id>
-			<url>http://nexus.testdriven.org/content/repositories/releases/</url>
+			<url>http://testdriven.org/nexus/content/repositories/releases/</url>
 		</repository>
 	</repositories>
 </project>
