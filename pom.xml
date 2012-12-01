@@ -26,13 +26,13 @@
 	<distributionManagement>
 		<site>
 			<id>testdriven.org</id>
-			<url>scp://testdriven.org:9922/var/www/jboss-modular-ear-archetype/</url>
+			<url>scp://testdriven.org/var/www/jboss-modular-ear-archetype/</url>
 		</site>
 	</distributionManagement>
 
 	<ciManagement>
 		<system>jenkins</system>
-		<url>http://jenkins.testdriven.org/job/jboss-modular-ear-archetype/</url>
+		<url>http://jenkins.testdriven.org/jenkins/job/jboss-modular-ear-archetype/</url>
 	</ciManagement>
 
 	<issueManagement>
