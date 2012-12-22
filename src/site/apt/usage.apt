@@ -40,7 +40,7 @@ Usage
 
 +-----+
 mvn archetype:generate \
-	-DarchetypeRepository=http://maven.testdriven.org/releases/ \
+	-DarchetypeRepository=http://maven.testdriven.org/repositories/releases/ \
 	-DarchetypeGroupId=org.testdriven.archetypes.jboss \
 	-DarchetypeArtifactId=j2ee-modular-archetype
 +-----+
